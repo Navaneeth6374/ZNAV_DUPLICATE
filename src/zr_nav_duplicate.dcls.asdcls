@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZR_NAV_DUPLICATE'
+@MappingRole: true
+define role ZR_NAV_DUPLICATE {
+  grant select on ZR_NAV_DUPLICATE
+  where TRUE;
+}

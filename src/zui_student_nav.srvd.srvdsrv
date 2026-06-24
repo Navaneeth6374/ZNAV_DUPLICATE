@@ -1,0 +1,4 @@
+@EndUserText.label: 'service definition'
+define service ZUI_STUDENT_NAV {
+  expose ZC_STUDENT_NAV as Student;
+}

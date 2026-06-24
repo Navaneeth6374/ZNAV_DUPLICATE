@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_NAV_DUPLICATE'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_NAV_DUPLICATE'
+  }
+}
+define service ZUI_NAV_DUPLICATE_O4 provider contracts odata_v4_ui {
+  expose ZC_NAV_DUPLICATE;
+}
